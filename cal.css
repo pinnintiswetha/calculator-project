@@ -1,0 +1,71 @@
+body{
+    background-image: url('https://st4.depositphotos.com/3367263/19970/i/450/depositphotos_199707812-stock-photo-digital-composite-books-graduation-hat.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto;
+    border-radius: 20px;
+}
+.calc{
+    background-color: rgba(67, 253, 210, 0.081);
+    border: 2px solid rgba(65, 105, 225, 0.31);
+    border-radius: 20px;
+    margin: 60px;
+    padding: 20px;
+
+}
+
+.textbox{
+    height: 150px;
+    width: 330px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    text-align: right;
+    border: 1px solid rgba(255, 250, 250, 0.066);
+    outline: none;
+    margin-left: 5px;
+    box-shadow: -3px -3px 5px rgb(68, 53, 56);
+    background-color: rgba(251, 211, 218, 0.114);
+    cursor: pointer;
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    text-overflow:unset;
+}
+.btn{
+    width: 75px;
+    height: 60px;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 20px;
+    border: none;
+    background-color:rgba(208, 249, 145, 0.412) ;
+    box-shadow: -3px -3px 10px rgb(249, 181, 181) ;
+    text-transform: capitalize;
+    font-family: serif;
+    font-weight: bold;
+    font-size: medium;
+    cursor: pointer;
+}
+.btn:active{
+    transform: translateY(4px);
+}
+#equal{
+    background-color: rgba(67, 40, 0, 0.637);
+    color: white;
+    font-weight: bolder;
+}
+.opt{
+    background-color: rgba(72, 55, 29, 0.407);
+    color: rgb(255, 255, 255);
+}
+input::placeholder{
+    color: rgb(255, 255, 255);
+}
